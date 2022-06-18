@@ -362,7 +362,7 @@ void srt_print_gantt_chart(Process *p, int len)
     free(remain_burst_time);
   
 }
-void SRT(Process *p, int len)
+void SRTN(Process *p, int len)
 {
     
     process_init(p,len);
